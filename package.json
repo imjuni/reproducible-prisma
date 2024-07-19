@@ -18,7 +18,7 @@
     "dd": "deps-diff md -d prod -d dev --title-list-type '*' --deps-list-type '*' --content-list-type '*'",
     "migrate": "pnpm dlx prisma migrate dev --name init",
     "generate": "pnpm dlx prisma generate",
-    "schema": "pnpm dlx ts-json-schema-generator --path 'src/dto/ITagDto.ts' --type 'ITagDto'"
+    "schema": "ts-json-schema-generator --path 'src/dto/ITagDto.ts' --type 'ITagDto'"
   },
   "repository": {
     "type": "git",
@@ -71,6 +71,7 @@
     "rimraf": "^6.0.1",
     "rollup": "^4.18.1",
     "rollup-plugin-dts": "^6.1.1",
+    "ts-json-schema-generator": "2.3.0-next.5",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
     "tslib": "^2.6.3",
