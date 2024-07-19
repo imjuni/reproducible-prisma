@@ -1,12 +1,9 @@
-# TypeScript ESM cli boilerplate
+# reproducible repository: ts-json-schema-generator with prisma
 
-## installation
+## reproducible
 
-```bash
-# Clone the boilerplate:
-git clone --depth=1 \
-  https://github.com/imjuni/typescript-cli-esm-boilerplate.git \
-  your-project-name
-
-cd your-project-name
-```
+1. clone repository
+2. pnpm install
+3. pnpm run migrate
+4. pnpm run generate
+5. pnpm run schema
